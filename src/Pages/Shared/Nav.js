@@ -9,7 +9,7 @@ export const Nav = () => {
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="w-5 h-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -24,7 +24,7 @@ export const Nav = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="p-2 mt-3 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
             >
               <li>
                 <a>Item 1</a>
@@ -56,20 +56,29 @@ export const Nav = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Spectre</a>
+          <a className="text-xl normal-case btn btn-ghost">Spectre</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="hidden navbar-center lg:flex">
           <div className="form-control">
             <div className="input-group">
+              <select className="text-white select bg-primary select-bordered">
+                <option className="text-white bg-white"  disabled selected>
+                  All
+                </option>
+                <option className="text-black bg-white border-none">T-shirts</option>
+                <option className="text-black bg-white border-none">Mugs</option>
+                <option className="text-black bg-white border-none">Mugs</option>
+                <option className="text-black bg-white border-none">Mugs</option>
+              </select>
               <input
                 type="text"
                 placeholder="Search…"
                 className="input input-bordered"
               />
-              <button className="btn btn-square">
+              <button className="btn bg-primary btn-square">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="w-6 h-6 text-white "
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -86,7 +95,7 @@ export const Nav = () => {
           </div>
         </div>
         <div className="navbar-end">
-          <a className="btn">Get started</a>
+          <a className="text-white border-none btn bg-primary">Get started</a>
         </div>
       </div>
     </div>
