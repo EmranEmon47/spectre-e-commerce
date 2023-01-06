@@ -2,7 +2,7 @@ import React from "react";
 
 export const Nav = () => {
   return (
-    <main>
+    <main className="bg-[#f7f7f7]">
       <div className="w-full h-[100px] px-[120px] flex justify-between items-center">
 
         {/* logo */}
