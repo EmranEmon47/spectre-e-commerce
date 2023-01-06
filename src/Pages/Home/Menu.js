@@ -28,13 +28,61 @@ export const Menu = () => {
             </label>
             <ul
               tabIndex={0}
-              className="p-2 shadow dropdown-content menu bg-base-100 w-52"
+              className="shadow dropdown-content menu bg-base-100 w-52 "
             >
-              <li>
+              <li className="hover-bordered hover:text-primary">
                 <a>Item 1</a>
               </li>
-              <li>
+              <li className="hover-bordered hover:text-primary">
                 <a>Item 2</a>
+              </li>
+
+              {/* <li tabIndex={1} className="hover-bordered hover:text-primary ">
+                <div className="flex items-center justify-between">
+                  <a>Item 3</a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+
+                <ul
+                  tabIndex={1}
+                  className="shadow dropdown-content menu bg-base-100 w-52 "
+                >
+                  <li className="hover-bordered hover:text-primary">
+                    <a>Item 1</a>
+                  </li>
+                  <li className="hover-bordered hover:text-primary">
+                    <a>Item 2</a>
+                  </li>
+
+                  <li className="hover-bordered hover:text-primary">
+                    <a>Item 3</a>
+                  </li>
+                  <li className="hover-bordered hover:text-primary">
+                    <a>Item 4</a>
+                  </li>
+                  <li className="hover-bordered hover:text-primary">
+                    <a>Item 5</a>
+                  </li>
+                </ul>
+              </li> */}
+              <li className="hover-bordered hover:text-primary">
+                <a>Item 4</a>
+              </li>
+              <li className="hover-bordered hover:text-primary">
+                <a>Item 5</a>
               </li>
             </ul>
           </div>
