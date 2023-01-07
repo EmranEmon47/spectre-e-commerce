@@ -4,7 +4,7 @@ export const Menu = () => {
   return (
     <main className="bg-primary">
       <div className="flex justify-between items-center w-full h-[43px] px-[120px]">
-        <div>
+        <div className="flex items-center justify-center">
           <div className="dropdown dropdown-hover h-[43px]">
             <label
               tabIndex={0}
@@ -37,7 +37,7 @@ export const Menu = () => {
                 <a>Item 2</a>
               </li>
 
-              {/* <li tabIndex={1} className="hover-bordered hover:text-primary ">
+              <li tabIndex={1} className=" hover:text-primary">
                 <div className="flex items-center justify-between">
                   <a>Item 3</a>
                   <svg
@@ -77,7 +77,7 @@ export const Menu = () => {
                     <a>Item 5</a>
                   </li>
                 </ul>
-              </li> */}
+              </li>
               <li className="hover-bordered hover:text-primary">
                 <a>Item 4</a>
               </li>
@@ -86,6 +86,10 @@ export const Menu = () => {
               </li>
             </ul>
           </div>
+        <a className="pl-4 font-semibold text-white hover:text-[#fed430]">Fashion</a>
+        <a className="pl-4 font-semibold text-white hover:text-[#fed430]">Electronics</a>
+        <a className="pl-4 font-semibold text-white hover:text-[#fed430]">Health & Beauty</a>
+        <a className="pl-4 font-semibold text-white hover:text-[#fed430]">Footwear</a>
         </div>
         <div>
           <p className="font-medium text-white">0180000000</p>
