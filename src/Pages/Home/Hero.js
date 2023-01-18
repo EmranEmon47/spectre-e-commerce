@@ -44,9 +44,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="basis-1/5">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          explicabo voluptatem, qui quibusdam officiis doloribus aliquid illo
-          saepe assumenda!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, vero.
         </div>
       </div>
     </div>
