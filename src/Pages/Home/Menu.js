@@ -8,7 +8,7 @@ export const Menu = () => {
           <div className="dropdown dropdown-hover h-[43px]">
             <label
               tabIndex={0}
-              className="px-4 py-[9.5px] text-black font-medium bg-[#fed430] flex justify-center items-center"
+              className="px-4 py-[10.5px] text-black font-medium bg-[#fed430] flex justify-center items-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

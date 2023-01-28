@@ -14,8 +14,8 @@ export const Nav = () => {
         <div>
           <div className="form-control">
             <div className="input-group h-[40px]">
-              <select className="px-2 py-2 text-white w-14 bg-primary">
-                <option className="text-black bg-white" disabled selected>
+              <select className="py-2 text-white px-auto w-14 bg-primary ">
+                <option className="text-black bg-white " disabled selected>
                   All
                 </option>
                 <option className="text-black bg-white">Game of Thrones</option>
