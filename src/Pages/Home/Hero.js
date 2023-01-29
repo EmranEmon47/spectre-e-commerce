@@ -2,6 +2,7 @@ import React from "react";
 
 import img1 from "../../Assets/Images/banner1.jpg";
 import img2 from "../../Assets/Images/banner2.jpg";
+import ads from "../../Assets/Images/ad-1.jpeg"
 
 export const Hero = () => {
   return (
@@ -37,9 +38,9 @@ export const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="basis-1/5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-          vero.
+        <div className="flex flex-col gap-10 py-6 basis-1/5">
+         <img src={ads} alt="" />
+         <img className="pt-4" src={ads} alt="" />
         </div>
       </div>
     </div>
